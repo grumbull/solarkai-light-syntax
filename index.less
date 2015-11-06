@@ -71,22 +71,22 @@ atom-text-editor, :host {
     }
 
     .variable.list {
-      color: @pink;
+      color: @magenta;
       font-weight: bold;
     }
 
     .link {
-      color: @light-gray;
+      color: @base-lighter;
 
       .entity {
-        color: @purple;
+        color: @violet;
       }
     }
   }
 }
 
 .comment {
-  color: @brown;
+  color: @base-darkest;
 }
 
 .constant {
@@ -94,7 +94,7 @@ atom-text-editor, :host {
   &.language,
   &.numeric,
   &.other {
-    color: @purple;
+    color: @violet;
   }
 }
 
@@ -113,7 +113,7 @@ atom-text-editor, :host {
   }
 
   &.name.tag {
-    color: @pink;
+    color: @magenta;
   }
 
   &.other.attribute-name {
@@ -128,16 +128,16 @@ atom-text-editor, :host {
 }
 
 .invalid {
-  color: @ghost-white;
-  background-color: @pink;
+  color: @background-lighter;
+  background-color: @magenta;
 
   &.deprecated {
-    background-color: @purple;
+    background-color: @violet;
   }
 }
 
 .keyword {
-  color: @pink !important;
+  color: @magenta !important;
 }
 
 .meta.tag {
@@ -145,7 +145,7 @@ atom-text-editor, :host {
 }
 
 .storage {
-  color: @pink;
+  color: @magenta;
 
   &.type {
     font-style: italic;
@@ -180,13 +180,13 @@ atom-text-editor, :host {
   &.language.python,
   // 'this' Javascript
   &.language.js {
-    color: @pink;
+    color: @magenta;
   }
 }
 
 // Jade syntax
 .class.jade {
-  color: @purple;
+  color: @violet;
 }
 
 // Prevent underlines from making their way into whitespace elements
