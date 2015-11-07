@@ -1,6 +1,7 @@
 {
   "name": "solarkai",
   "theme": "syntax",
+  "version": "0.0.0",
   "private": true,
   "description": "A solarized theme with monokai styling.",
   "repository": "https://github.com/michaelosky/solarkai",
