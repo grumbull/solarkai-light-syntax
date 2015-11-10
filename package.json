@@ -1,10 +1,10 @@
 {
-  "name": "solarkai-syntax",
+  "name": "solarkai-light-syntax",
   "theme": "syntax",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "A solarized theme with monokai styling.",
-  "repository": "https://github.com/michaelosky/solarkai-syntax",
+  "description": "A solarized light theme with monokai styling.",
+  "repository": "https://github.com/michaelosky/solarkai-light-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.39.0"
